@@ -1,0 +1,1136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "??? ??? ??"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Timetable",
+      "patterns": [
+        "what is the Timetable",
+        "Timetable for Electronic $ Computer science",
+        "Timetable for Electronic $ Computer science"
+      ],
+      "responses": [
+        "For Timetable detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/announcements/ecs-announcements/ia2-timetable-april-2023/\"> IA 2</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Result",
+      "patterns": [
+        "what is the result",
+        "Result analysis",
+        "Result for current sem",
+        "Result for previous sem",
+        "Result for EXTC",
+        "Result for ECS",
+        "Result for IT",
+        "Result for CS",
+        "Result for Cyber security",
+        "Result for AIDS"
+      ],
+      "responses": [
+        "For result detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/?s=result\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "ECS",
+      "patterns": [
+        "ECS",
+        "information about ECS",
+        "ECS intake",
+        "ECS department"
+      ],
+      "responses": [
+        "For ECS Department related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/ecs/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "ECS Faculty",
+      "patterns": [
+        "ECS faculty",
+        "ECS teaching staff",
+        "ECS staff",
+        "ECS teachers"
+      ],
+      "responses": [
+        "For ECS Department Teaching staff detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/ecs/ecs-teaching-faculty/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "IT",
+      "patterns": [
+        "IT",
+        "information about IT",
+        "IT intake",
+        "IT department"
+      ],
+      "responses": [
+        "For IT Department related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/it/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "IT Faculty",
+      "patterns": [
+        "IT faculty",
+        "IT teaching staff",
+        "IT staff",
+        "IT teachers"
+      ],
+      "responses": [
+        "For IT Department Teaching staff detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/it/it-teaching-faculty/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+     {
+      "tag": "Computer",
+      "patterns": [
+        "Computer",
+        "information about Computer",
+        "Computer intake",
+        "Computer department"
+      ],
+      "responses": [
+        "For Computer Department related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/cs/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "CS Faculty",
+      "patterns": [
+        "CS faculty",
+        "Computer department teaching staff",
+        "CS staff",
+        "CS teachers"
+      ],
+      "responses": [
+        "For Computer Department Teaching staff detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/cs/cs-teaching-faculty/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "EXTC",
+      "patterns": [
+        "EXTC",
+        "information about EXTC",
+        "about Electronics & Telecommunication",
+        "Electronics & Telecommunication",
+        "EXTC intake",
+        "EXTC department"
+      ],
+      "responses": [
+        "For Electronics & Telecommunication Department related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/extc/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "EXTC Faculty",
+      "patterns": [
+        "Electronics & Telecommunication faculty",
+        "EXTC department teaching staff",
+        "Electronics & Telecommunication staff",
+        "Electronics & Telecommunication teachers"
+      ],
+      "responses": [
+        "For Electronics & Telecommunication Department Teaching staff detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/extc/extc-teaching-faculty/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+     {
+      "tag": "AIDS",
+      "patterns": [
+        "Artificial Intelligence & Data Science",
+        "information about AIDS",
+        "about Artificial Intelligence & Data Science",
+        "Artificial Intelligence & Data Science",
+        "Artificial Intelligence & Data Science intake",
+        "AIDS department"
+      ],
+      "responses": [
+        "For Artificial Intelligence & Data Science Department related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/ads/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "AIDS Faculty",
+      "patterns": [
+        "Artificial Intelligence & Data Science faculty",
+        "AIDS department teaching staff",
+        "Artificial Intelligence & Data Science staff",
+        "Artificial Intelligence & Data Science teachers"
+      ],
+      "responses": [
+        "For Artificial Intelligence & Data Science Department Teaching staff detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/ads/ads-teaching-faculty/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Cyber Security",
+      "patterns": [
+        "Cyber Security",
+        "information about Cyber Security",
+        "about Cyber Security",
+        "Cyber Security",
+        "Cyber Security intake",
+        "Cyber Security department"
+      ],
+      "responses": [
+        "For Cyber Security Department related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/cyse/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Cyber Security Faculty",
+      "patterns": [
+        "Cyber Security faculty",
+        "Cyber Security department teaching staff",
+        "Cyber Security staff",
+        "Cyber Security teachers"
+      ],
+      "responses": [
+        "For Cyber Security Department Teaching staff detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/cyse/cyse-teaching-faculty/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Scholarship",
+      "patterns": [
+        "Scholarship details?",
+        "Scholarship notice 2022-23",
+        "Scholarship notice 2022-23 - First Remainder",
+        "Scholarship notice 2022-23 - Second Remainder"
+      ],
+      "responses": [
+        "For Scholarship detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/scholarship/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Student Council",
+      "patterns": [
+        "Student Council details?",
+        "Student Council 2022-23",
+        "council",
+        "Student Council duties",
+        "Student Council of sakec"
+      ],
+      "responses": [
+        "For Student Council detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/student-council/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Sakec life",
+      "patterns": [
+        "about sakec life",
+        "about sakec events ",
+        "pratishtha"
+      ],
+      "responses": [
+        "For Sakec life related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/life-sakec/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "vision and mission",
+      "patterns": [
+        "about vision and mission of sakec",
+        "vision and mission",
+        "Vision, Mission & Quality Policy"
+      ],
+      "responses": [
+        "For Sakec vision and mission related detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/vision-mission/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Payment portal",
+      "patterns": [
+        "payment",
+        "fees payment",
+        "payment portal",
+        "SBI collect",
+        "SBI portal"
+      ],
+      "responses": [
+        "For Sakec Payment portal visit <a target=\"_blank\" href=\"https://www.onlinesbi.sbi/sbicollect/icollecthome.htm\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Contact us",
+      "patterns": [
+        "contact us",
+        "sakec location",
+        "contact us form"
+      ],
+      "responses": [
+        "For Contact us visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/contact/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "address",
+      "patterns": [
+        "location of sakec",
+        "address of sakec"
+      ],
+      "responses": [
+        "Shah & Anchor Kutchhi Engineering College\n\nMahavir Education Trust’s Chowk, Waman Tukaram Patil Marg, Next to Dukes Co., Chembur, Mumbai – 400 088.\nContact-No: 022-25580854\n\nFax-No:25568100\n\nEmail-Id: info@sakec.ac.in"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "leadership",
+      "patterns": [
+        "sakec leadership",
+        "our sakec inspiration"
+      ],
+      "responses": [
+        "Shri Jayantilal Keshavji Chhadva\nChairman\n\nDr. Bhavesh Patel\nPrincipal\n\nShri Keshavjibhai Umarshibhai Chhadva\nOur Inspiration "
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "Research cell",
+      "patterns": [
+        "about Research cell of sakec",
+        "Research cell",
+        "our projects",
+        "Sakec projects",
+        "sakec achievements",
+        "our achievements"
+      ],
+      "responses": [
+        "For Sakec Research cell related detail visit <a target=\"_blank\" href=\"https://www.shahandanchor.com/research/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "Students of SAKEC , Shubham, Madhavi , Amey !!!!"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "You can call me Mind Reader.",
+        "I'm Mind Reader",
+        "I am a Chatbot.",
+        "I am your helper"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college  hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": [
+        "College is open 8am-5pm Monday-Saturday!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": [
+        "You can contact at: NUMBER"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in",
+        "what are the courses offered in your college?",
+        "courses?",
+        "courses offered",
+        "courses offered in (your univrsity(UNI) name)",
+        "courses you offer",
+        "branches?",
+        "courses available at SAKEC?",
+        "branches available at your college?",
+        "what are the courses in UNI?",
+        "what are branches in UNI?",
+        "what are courses in UNI?",
+        "branches available in UNI?",
+        "can you tell me the courses available in SAKEC?",
+        "can you tell me the branches available in SAKEC?",
+        "computer engineering?",
+        "computer",
+        "Computer engineering?",
+        "it",
+        "IT",
+        "Information Technology",
+        "AI/DS",
+        "AIDS",
+        "Electronics and Computer Science engineering",
+        "Electronics & Telecommunication engineering",
+        "Cyber Security",
+        "General Science & Humanities"
+      ],
+      "responses": [
+        "Our university offers Information Technology,General Science & Humanities, computer Engineering, Electronics & Computer Science engineering,Artificial Intelligence & Data Science, Cyber Security engineering and extc Engineering."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "What is the fees of hostel",
+        "how much is the fees",
+        "hostel fees",
+        "fees for AC room",
+        "fees for non-AC room",
+        "fees for Ac room for girls",
+        "fees for non-Ac room for girls",
+        "fees for Ac room for boys",
+        "fees for non-Ac room for boys"
+      ],
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/news-updates/notice-regarding-payment-of-fees-iiiiiiv-year-all-branches-2019-20/\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "college is located at",
+        "where is college",
+        "where is college located",
+        "address of college",
+        "how to reach college",
+        "college location",
+        "college address",
+        "wheres the college",
+        "how can I reach college",
+        "whats is the college address",
+        "what is the address of college",
+        "address",
+        "location"
+      ],
+      "responses": [
+        "<a target=\"_blank\" href=\" https://www.shahandanchor.com/home/reach-us/\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facility",
+        "hostel servive",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does college provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from college",
+        "hostel college distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between college and hostel",
+        "distance between hostel and college"
+      ],
+      "responses": [
+        "Currently institute doesn't have hostel facility"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "events organised",
+        "list of events",
+        "list of events organised in college",
+        "list of events conducted in college",
+        "What events are conducted in college",
+        "Are there any event held at college",
+        "Events?",
+        "functions",
+        "what are the events",
+        "tell me about events",
+        "what about events"
+      ],
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/life-sakec/\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "document",
+      "patterns": [
+        "document to bring",
+        "documents needed for admission",
+        "documents needed at the time of admission",
+        "documents needed during admission",
+        "documents required for admision",
+        "documents required at the time of admission",
+        "documents required during admission",
+        "What document are required for admission",
+        "Which document to bring for admission",
+        "documents",
+        "what documents do i need",
+        "what documents do I need for admission",
+        "documents needed"
+      ],
+      "responses": [
+        "Registration for Engineering Admission-2023 Updates.. visit <a target=\"_blank\" href=\"https://www.shahandanchor.com/home/registration-for-engineering-admission-2023-updates/\"> here</a>",
+        "Admission Portal.. visit <a target=\"_blank\" href=\"https://www.shahandanchor.com/metsmartcampus/default.aspx\"> here</a>"
+
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "floors",
+      "patterns": [
+        "size of campus",
+        "building size",
+        "How many floors does college have",
+        "floors in college",
+        "floors in college",
+        "how tall is Shah and Anchor Kutchhi Engineering College building",
+        "floors"
+      ],
+      "responses": [
+        "My College has total 7 floors "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "Syllabus for IT",
+        "what is the Information Technology syllabus",
+        "syllabus",
+        "timetable",
+        "what is IT syllabus",
+        "syllabus",
+        "What is next lecture"
+      ],
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/?s=timetable\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "is there any library",
+        "library facility",
+        "library facilities",
+        "do you have library",
+        "does the college have library facility",
+        "college library",
+        "where can i get books",
+        "book facility",
+        "Where is library",
+        "Library",
+        "Library information",
+        "Library books information",
+        "Tell me about library",
+        "how many libraries"
+      ],
+      "responses": [
+        "There is one huge and spacious library.timings are 9am to 5pm and for more visit <a target=\"blank\" href=\"https://www.sakec.ac.in/library/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+        "how is college infrastructure",
+        "infrastructure",
+        "college infrastructure"
+      ],
+      "responses": [
+        "SAKEC offers its students a state of the art infrastructure. This is essential to support effective teaching and learning. Classrooms at SAKEC are equipped with modern teaching facilities like Digital Smart Boards, Ceiling Mounted Projectors, WiFi Internet access and well designed sitting area.",
+        "For More details visit <a target=\"blank\" href=\"https://www.sakec.ac.in/library/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "food facilities",
+        "canteen facilities",
+        "canteen facility",
+        "is there any canteen",
+        "Is there a cafetaria in college",
+        "Does college have canteen",
+        "Where is canteen",
+        "where is cafetaria",
+        "canteen",
+        "Food",
+        "Cafetaria"
+      ],
+      "responses": [
+        "Our university has canteen with variety of food available"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "food menu",
+        "food in canteen",
+        "Whats there on menu",
+        "what is available in college canteen",
+        "what foods can we get in college canteen",
+        "food variety",
+        "What is there to eat?"
+      ],
+      "responses": [
+        "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What is college placement",
+        "Which companies visit in college",
+        "What is average package",
+        "companies visit",
+        "package",
+        "About placement",
+        "placement",
+        "recruitment",
+        "companies",
+        "2021-22 Placement statistics"
+      ],
+      "responses": [
+        "To know about placement overview visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/placement/\">here</a>",
+        "To know about recruiters visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/placement/recruiters/\">here</a>"
+
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ithod",
+      "patterns": [
+        "Who is HOD",
+        "Where is HOD",
+        "it hod",
+        "name of it hod"
+      ],
+      "responses": [
+        "Prof. Swati Nadkarni"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "ECShod",
+      "patterns": [
+        "Who is HOD of ECS department",
+        "Where is HOD",
+        "ecs hod",
+        "name of ecs hod"
+      ],
+      "responses": [
+        "Dr. Subha Subramaniam"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "computerhod",
+      "patterns": [
+        "Who is computer HOD",
+        "Where is computer HOD",
+        "computer hod",
+        "name of computer hod"
+      ],
+      "responses": [
+        "Prof. Uday K Bhave"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "extchod",
+      "patterns": [
+        "Who is extc HOD",
+        "Where is  extc HOD",
+        "extc hod",
+        "name of extc hod"
+      ],
+      "responses": [
+        "Dr. Vinutha T P"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "aidshod",
+      "patterns": [
+        "Who is aids HOD",
+        "Where is  aids HOD",
+        "aids hod",
+        "name of aids hod"
+      ],
+      "responses": [
+        "Ms. Tina Himanshu Maru"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "cyberhod",
+      "patterns": [
+        "Who is cyber security HOD",
+        "Where is  cyber HOD",
+        "cyber security hod",
+        "name of cyber security department hod"
+      ],
+      "responses": [
+        "Dr. Nilakshi Jain"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "principal",
+      "patterns": [
+        "what is the name of principal",
+        "what s the principal name",
+        "principal name",
+        "Who is college principal",
+        "Where is principal's office",
+        "principal",
+        "name of principal"
+      ],
+      "responses": [
+        "Dr. Bhavesh Patel"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sem",
+      "patterns": [
+        "exam dates",
+        "exam schedule",
+        "When is semester exam",
+        "Semester exam timetable",
+        "sem",
+        "semester",
+        "exam",
+        "when is exam",
+        "exam timetable",
+        "exam dates",
+        "when is semester"
+      ],
+      "responses": [
+        "Here is the Exam Notice Board  <a target=\"_blank\" href=\"https://www.sakec.ac.in/exam-notice-board/\">website</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "what is the process of admission",
+        "what is the admission process",
+        "How to take admission in your college",
+        "What is the process for admission",
+        "admission",
+        "admission process"
+      ],
+      "responses": [
+        "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"Lhttps://www.sakec.ac.in/?s=admission\">website</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship",
+        "Is scholarship available",
+        "scholarship engineering",
+        "scholarship it",
+        "scholarship ce",
+        "scholarship mechanical",
+        "scholarship civil",
+        "scholarship chemical",
+        "scholarship for AI/ML",
+        "available scholarships",
+        "scholarship for computer engineering",
+        "scholarship for IT engineering",
+        "scholarship for mechanical engineering",
+        "scholarship for civil engineering",
+        "scholarship for chemical engineering",
+        "list of scholarship",
+        "comps scholarship",
+        "IT scholarship",
+        "first year scholarship",
+        "second year scholarship",
+        "third year scholarship",
+        "fourth year scholarship"
+      ],
+      "responses": [
+        "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/scholarship/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities college provide",
+        "College facility",
+        "What are college facilities",
+        "facilities",
+        "facilities provided"
+      ],
+      "responses": [
+        "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college intake",
+      "patterns": [
+        "max number of students",
+        "number of seats per branch",
+        "number of seats in each branch",
+        "maximum number of seats",
+        "maximum students intake",
+        "What is college intake",
+        "how many stundent are taken in each branch",
+        "seat allotment",
+        "seats"
+      ],
+      "responses": [
+        "For ECS...120, IT..120 intake, Computer.. 180 and extc 60, AIDS...60,Cyber Security..60  per branch and seat may be differ for different department."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "policy",
+      "patterns": [
+        "college policies",
+        "what are the policies",
+        "what is cyber Security policies",
+        "library policy",
+        "exam policy",
+        "Is there any policy"
+      ],
+      "responses": [
+        "College Policies <a target=\"_blank\" href=\"https://www.sakec.ac.in/policies/\">website</a>\"\n"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "committee",
+      "patterns": [
+        "what are the different committe in college",
+        "different committee in college",
+        "Are there any committee in college",
+        "Give me committee details",
+        "committee",
+        "how many committee are there in college"
+      ],
+      "responses": [
+        "For Committees related details and updates visit <a target=\"_blank\" href=\"https://www.sakec.ac.in/committees/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "random",
+      "patterns": [
+        "I love you",
+        "Will you marry me",
+        "Do you love me"
+      ],
+      "responses": [
+        "I am not program for this, please ask appropriate query"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "vacation",
+      "patterns": [
+        "holidays",
+        "when will semester starts",
+        "when will semester end",
+        "when is the holidays",
+        "list of holidays",
+        "Holiday in these year",
+        "holiday list",
+        "about vacations",
+        "about holidays",
+        "When is vacation",
+        "When is holidays",
+        "how long will be the vacation"
+      ],
+      "responses": [
+        "Academic calender is given to you by your class-soordinators after you join your respective classes..and also you get it from here<a target=\"_blank\" href=\"https://www.sakec.ac.in/academic-calendar/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports and games",
+        "give sports details",
+        "sports infrastructure",
+        "sports facilities",
+        "information about sports",
+        "Sports activities",
+        "please provide sports and games information"
+      ],
+      "responses": [
+        "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://www.sakec.ac.in/achievements/cyclothon-competition-of-sakec-annual-sports-olympus-2020/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "salutaion",
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "its ok",
+        "Thanks",
+        "Good work",
+        "k",
+        "ok",
+        "okay"
+      ],
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "task",
+      "patterns": [
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you"
+      ],
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try to answer them"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ragging",
+      "patterns": [
+        "ragging",
+        "is ragging practice active in college",
+        "does college have any anti ragging facility",
+        "is there any ragging cases",
+        "is ragging done here",
+        "ragging against",
+        "antiragging facility",
+        "ragging juniors",
+        "ragging history",
+        "ragging incidents",
+        "anti ragging form",
+        "how to fill anti ragging form"
+      ],
+      "responses": [
+        "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging",
+        "Instructions dor anti-ragging affidavit <a target=\"_blank\" href=/\"https://www.sakec.ac.in/?s=anti+ragging\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hod",
+      "patterns": [
+        "hod",
+        "hod name",
+        "who is the hod"
+      ],
+      "responses": [
+        "HODs differ for each branch, please be more specific like: (HOD it)"
+      ],
+      "context_set": ""
+    }
+  ]
+}
